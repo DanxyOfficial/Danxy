@@ -1,6 +1,13 @@
 <!-- ========================= DASHBOARD STATS (VISUAL) ========================= -->
 #  TOOLS TERMUX 2025 DANXY TOOLS V8.4
 
+---
+
+## PREVIEW 
+![DanxyTools v8.4](https://raw.githubusercontent.com/DanxyOfficial/Danxy/main/DanxyToolsV84.png)
+
+---
+
 <!-- Top badges -->
 <p align="left">
   <a href="https://www.youtube.com/@DanxyOfficial"><img alt="Developer" src="https://img.shields.io/badge/Developer-DanxyOfficial-black?style=for-the-badge&logo=github"></a>
@@ -68,20 +75,15 @@ Didesain untuk developer, penetration testers, peneliti keamanan, dan power-user
 
 ---
 
-## PREVIEW 
-![DanxyTools v8.4](https://raw.githubusercontent.com/DanxyOfficial/Danxy/main/DanxyToolsV84.png)
-
----
-
 ##  Command (Termux)
 ```bash
 pkg update && pkg upgrade -y
 pkg install git curl wget toilet figlet sox mpv -y
-git clone https://github.com/NgakuNgakuDevTapiScRecodePunyaGw/Danxy
+git clone https://github.com/DanxyOfficial/Danxy
 cd Danxy
 make install
 make run
-(Dapatkan Id Ana dari Danxy)
+(Dapatkan Id Anda dari Danxy)
 ```
 ## 📡 Kontak & Komunitas  
 
@@ -140,6 +142,7 @@ Jika Anda merasa tools ini bermanfaat:
 > Setiap dukungan, sekecil apapun, sangat berarti untuk menjaga project ini tetap aktif dan berkembang. ❤️  
 
 ---
+
 
 
 
