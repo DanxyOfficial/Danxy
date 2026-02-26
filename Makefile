@@ -36,7 +36,12 @@ install:
 	@pip install rich
 	@pip install rich-cli
 	@pip install yt-dlp
-	@echo "[ ✔ ] Semua paket berhasil diinstal!"
+    @pkg nodejs
+    @pkg xxd
+    @pkg openssl-tool 
+    @pkg Bzip2 
+    @pkg lzma
+    @echo "[ ✔ ] Semua paket berhasil diinstal!"
 
 tutor:
 	@clear
