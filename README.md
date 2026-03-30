@@ -1,5 +1,5 @@
 <!-- ========================= DASHBOARD STATS (VISUAL) ========================= -->
-#  TOOLS TERMUX 2025 DANXY TOOLS V8.4
+#  TOOLS TERMUX 2024 - 2026 DANXY TOOLS V8.4
 
 ---
 
