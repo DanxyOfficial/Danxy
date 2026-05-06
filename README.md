@@ -1,81 +1,90 @@
-<!-- ========================= DASHBOARD STATS (VISUAL) ========================= -->
-#  TOOLS TERMUX 2024 - 2026 DANXY TOOLS V8.4
+<h1 align="center">
+  🛠️ DanxyTools v8.4
+</h1>
+<p align="center">
+  <i>All-in-One Multi-Tools Framework untuk Termux | 200+ Fitur Aktif</i>
+</p>
+
+---
+
+<p align="center">
+  <a href="https://www.youtube.com/@DanxyOfficial"><img src="https://img.shields.io/badge/Developer-DanxyOfficial-black?style=for-the-badge&logo=github"></a>
+  <img src="https://img.shields.io/badge/Version-8.4-blue?style=for-the-badge&logo=linux">
+  <img src="https://img.shields.io/badge/Platform-Termux-green?style=for-the-badge&logo=android">
+  <a href="https://whatsapp.com/channel/0029VaznZlq7z4kW00unHZ0e"><img src="https://img.shields.io/badge/Support-WhatsApp-25D366?style=for-the-badge&logo=whatsapp"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/DanxyOfficial/Danxy?style=for-the-badge">
+  <img src="https://img.shields.io/github/commit-activity/m/DanxyOfficial/Danxy?style=for-the-badge">
+  <img src="https://img.shields.io/github/contributors/DanxyOfficial/Danxy?style=for-the-badge">
+  <img src="https://img.shields.io/github/issues-raw/DanxyOfficial/Danxy?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/DanxyOfficial/Danxy?style=for-the-badge">
+  <img src="https://komarev.com/ghpvc/?username=DanxyOfficial&style=for-the-badge">
+</p>
 
 ---
 
 ## PREVIEW 
-![DanxyTools v8.4](https://raw.githubusercontent.com/DanxyOfficial/Danxy/main/DanxyToolsV84.png)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DanxyOfficial/Danxy/main/DanxyToolsV84.png" alt="DanxyTools v8.4 Preview" width="700">
+</p>
 
 ---
 
-<!-- Top badges -->
-<p align="left">
-  <a href="https://www.youtube.com/@DanxyOfficial"><img alt="Developer" src="https://img.shields.io/badge/Developer-DanxyOfficial-black?style=for-the-badge&logo=github"></a>
-  <img alt="Version" src="https://img.shields.io/badge/Version-8.4-blue?style=for-the-badge&logo=linux">
-  <img alt="Platform" src="https://img.shields.io/badge/Platform-Termux-green?style=for-the-badge&logo=android">
-  <a href="https://whatsapp.com/channel/0029VaznZlq7z4kW00unHZ0e"><img alt="Support" src="https://img.shields.io/badge/Support-WhatsApp-grey?style=for-the-badge&logo=whatsapp"></a>
-</p>
+## Tentang
 
-<!-- Live repo metrics (badges) -->
-<p>
-  <img alt="Repo Size" src="https://img.shields.io/github/repo-size/DanxyOfficial/Danxy?style=for-the-badge">
-  <img alt="Commits (month)" src="https://img.shields.io/github/commit-activity/m/DanxyOfficial/Danxy?style=for-the-badge">
-  <img alt="Contributors" src="https://img.shields.io/github/contributors/DanxyOfficial/Danxy?style=for-the-badge">
-  <img alt="Open Issues" src="https://img.shields.io/github/issues-raw/DanxyOfficial/Danxy?style=for-the-badge">
-  <img alt="License" src="https://img.shields.io/github/license/DanxyOfficial/Danxy?style=for-the-badge">
-  <img alt="Visitors" src="https://komarev.com/ghpvc/?username=DanxyOfficial&style=for-the-badge">
-</p>
+**DanxyTools v8.4** adalah *all-in-one multi-tools framework* untuk **Termux** — didesain untuk developer, penetration tester, peneliti keamanan, dan power-user yang membutuhkan toolbox lengkap dalam satu tempat.
 
-<!-- GitHub Readme Stats cards (dynamic SVG) -->
-<p align="left">
-  <!-- Replace &username= and &repo= with your user/repo -->
-  <img alt="DanxyTools GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=DanxyOfficial&show_icons=true&theme=radical&hide_title=true&count_private=true&repo=Danxy">
-  &nbsp;
-  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanxyOfficial&layout=compact&theme=radical&hide=html">
-</p>
-  <!-- activity-graph provides a visual "radar-like" contribution map -->
-  <img alt="Contribution Graph" src="https://activity-graph.herokuapp.com/graph?username=DanxyOfficial&bg_color=0,0,0&color=ff0000&line=ffffff&point=ff4500&area=true">
-</p>
-
-<!-- Extra: GitHub Streak + Rank (optional) -->
-<p align="left">
-  <img alt="Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=DanxyOfficial&theme=radical">
-  &nbsp;
-  <img alt="Rank" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DanxyOfficial&theme=radical">
-</p>
-<!-- ======================================================================= -->
+Mencakup modul untuk **OSINT**, **lookup & checker**, **networking**, **automation**, hingga **utilitas harian** dengan tampilan CLI interaktif yang modern.
 
 ---
 
-# 🔧 Tentang — DanxyTools v8.4
+## Highlights
 
-**DanxyTools v8.4** adalah *all-in-one multi-tools framework* untuk **Termux**.  
-Didesain untuk developer, penetration testers, peneliti keamanan, dan power-users yang butuh toolbox cepat — berisi modul untuk networking, OSINT, automation, dan utilitas harian. Fokus desain: **kemudahan penggunaan**, **modularitas**, dan **tampilan interaktif** yang responsif di terminal.
-
----
-
-## ✨ Highlights
-- **Modular** — struktur menu yang rapi; tiap fitur berdiri sendiri sehingga mudah dikembangkan.  
-- **Interactive UI** — feedback visual (warna, banner, progress) untuk pengalaman CLI yang modern.  
-- **Audio Feedback** — suara klik, notifikasi error, dan musik latar opsional untuk ambience.  
-- **Auto-deps** — installer otomatis (mpv, sox, yt-dlp, dll.) agar setup cepat.  
-- **Release-ready** — v8.4 membawa perbaikan stabilitas, UI polish, dan penambahan menu.
+| Fitur | Deskripsi |
+|-------|-----------|
+| 🧩 **Modular** | Tiap fitur berdiri sendiri, mudah dikembangkan dan diperbarui |
+| 🎨 **Interactive UI** | Banner, warna, dan progress bar untuk pengalaman CLI modern |
+| 🔊 **Audio Feedback** | Suara klik, notifikasi error, dan musik latar opsional |
+| ⚡ **Auto-deps** | Installer otomatis dependensi (mpv, sox, yt-dlp, dll.) |
+| 🔢 **200+ Fitur Aktif** | Koleksi modul terlengkap yang terus diperbarui |
 
 ---
 
-## 🔎 Cuplikan Fitur Utama
-- 🔐 **Suntik & Exploit Helpers** — utilities untuk otomatisasi interaksi pada platform populer (IG, TikTok, YouTube).  
-- 🛡️ **Phishing & Deface Kit** — toolkit untuk simulasi/riset keamanan (gunakan hanya untuk edukasi dan izin eksplisit).  
-- 📣 **Spam Engine** — modul pengiriman pesan (SMS/WhatsApp/Email) untuk uji beban dan pengujian notifikasi.  
-- 🕵️ **OSINT & Tracking** — IP lookup, lokasi kasar, dan ghost-trace utilities untuk investigasi open-source.  
-- ⬇️ **Downloader** — helper berbasis `yt-dlp`/`mpv` untuk media grabbing dan pemutar audio.  
-- 🎨 **ASCII & Banner Generator** — custom banners, quick ASCII art untuk tampilan CLI.  
-- 🎧 **Audio Player** — multi-album playlist, kontrol playback, dan efek audio.  
-- ➕ **Banyak lagi** — menu utilitas (kalkulator, enkripsi bash, checker, dsb).
+## Fitur Unggulan v8.4
+
+### OSINT & Lookup Tools
+
+| No | Fitur | Deskripsi |
+|----|-------|-----------|
+| 1 | 🚗 **Checker Plate Nomor** | Lookup informasi kendaraan berdasarkan plat nomor |
+| 2 | 📱 **Checker ID Telegram → Nomor** | Konversi Telegram User ID ke nomor telepon terdaftar |
+| 3 | 📇 **GetContact Lookup** | Cek nama tersimpan sebuah nomor dari database GetContact |
+| 4 | 📧 **Checker Kebocoran Gmail** | Deteksi apakah akun Gmail terdampak data breach |
+| 5 | 🗂️ **Checker DB Nomor Telkomsel → NIK** | Lookup NIK dari database nomor Telkomsel |
+| 6 | 🌐 **IP Lookup & Geolocation** | Lacak informasi IP publik beserta estimasi lokasi |
+| 7 | 👻 **Ghost-Trace** | Utilities investigasi dan pelacakan open-source lanjutan |
+
+### 🛠️ Tools & Utilities Lainnya
+
+| Kategori | Fitur |
+|----------|-------|
+| 🔐 **Security Research** | Exploit helpers & otomatisasi interaksi platform (edukasi) |
+| 🛡️ **Security Testing** | Phishing simulator & deface kit *(hanya untuk lingkungan izin eksplisit)* |
+| 📣 **Load Testing** | Modul uji beban pengiriman pesan (SMS/WA/Email) |
+| ⬇️ **Downloader** | Media grabber berbasis yt-dlp + mpv audio player |
+| 🎨 **ASCII & Banner** | Custom banners dan ASCII art generator untuk CLI |
+| 🎧 **Audio Player** | Multi-album playlist, kontrol playback, efek audio |
+| 🧮 **Utilitas** | Kalkulator, enkripsi bash, berbagai checker, dan banyak lagi |
+
+> **Total: 200+ fitur aktif** — terus bertambah di setiap update!
 
 ---
 
-##  Command (Termux)
+## Instalasi (Termux)
+
 ```bash
 pkg update && pkg upgrade -y
 pkg install git curl wget toilet figlet sox mpv -y
@@ -83,76 +92,76 @@ git clone https://github.com/DanxyOfficial/Danxy
 cd Danxy
 make install
 make run
-(Dapatkan Id Anda dari Danxy)
 ```
-## 📡 Kontak & Komunitas  
 
-
-| Platform | LINK |
-|----------|------|
-| [![YouTube](https://img.shields.io/badge/YouTube-DanxyOfficial-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@DanxyOfficial) | Konten resmi & update terbaru |
-| [![WhatsApp](https://img.shields.io/badge/WhatsApp-Channel-green?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029VaznZlq7z4kW00unHZ0e) | Join channel buat info & support |
-| [![TikTok](https://img.shields.io/badge/TikTok-Qwela.38-black?style=for-the-badge&logo=tiktok)](https://www.tiktok.com/@Qwela.38) | Short video & demo tools |
-| [![Telegram](https://img.shields.io/badge/Telegram-DanxyStore-blue?style=for-the-badge&logo=telegram)](https://t.me/DanxyStore) | Store & kontak langsung |
+> Setelah menjalankan `make run`, dapatkan **ID** kamu dari dalam aplikasi Danxy untuk akses penuh.
 
 ---
 
-⚠️ **Disclaimer & Responsible Use (Baca sebelum menggunakan)**
+## Kontak & Komunitas
+
+| Platform | Link | Keterangan |
+|----------|------|------------|
+| ▶️ YouTube | [@DanxyOfficial](https://www.youtube.com/@DanxyOfficial) | Konten resmi & update terbaru |
+| 💬 WhatsApp | [Join Channel](https://whatsapp.com/channel/0029VaznZlq7z4kW00unHZ0e) | Info & support langsung |
+| 🎵 TikTok | [@Qwela.38](https://www.tiktok.com/@Qwela.38) | Short video & demo tools |
+| ✈️ Telegram | [DanxyStore](https://t.me/DanxyStore) | Store & kontak developer |
+
+---
+
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=DanxyOfficial&show_icons=true&theme=radical&hide_title=true&count_private=true" alt="GitHub Stats">
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanxyOfficial&layout=compact&theme=radical&hide=html" alt="Top Languages">
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DanxyOfficial&theme=radical" alt="Streak">
+</p>
+
+---
+
+## ⚠️ Disclaimer & Responsible Use
+
+> **Baca ini sebelum menggunakan.**
 
 **1. Tujuan**
-Project ini dibuat untuk **riset, edukasi, dan pengujian keamanan** di lingkungan yang Anda miliki atau untuk mana Anda telah mendapatkan izin eksplisit.  
+Project ini dibuat semata-mata untuk keperluan **riset, edukasi, dan pengujian keamanan** pada sistem yang Anda miliki atau yang telah memberikan izin eksplisit kepada Anda.
 
-**2. Batasan Penggunaan**
-Dilarang menggunakan tools ini untuk:
-- Mengakses, merusak, atau mengambil data dari sistem tanpa izin.
-- Melakukan serangan, defacement, atau aktivitas yang merugikan pihak lain.
-- Melakukan tindakan yang melanggar hukum atau peraturan setempat.
+**2. Larangan Penggunaan**
+Dilarang keras menggunakan tools ini untuk:
+- Mengakses, mencuri, atau merusak data dari sistem tanpa izin.
+- Melakukan serangan, defacement, atau tindakan merugikan pihak lain.
+- Segala aktivitas yang melanggar hukum yang berlaku di yurisdiksi Anda.
 
-**3. Tanggung Jawab**
-Pengguna **bertanggung jawab penuh** atas penggunaan tools ini. Developer dan pemilik repository **tidak bertanggung jawab** atas kerugian, tuntutan hukum, atau konsekuensi lain yang timbul dari penggunaan atau penyalahgunaan tools ini.
+**3. Tanggung Jawab Pengguna**
+Pengguna **bertanggung jawab penuh** atas segala konsekuensi dari penggunaan tools ini. Developer dan pemilik repository **tidak bertanggung jawab** atas kerugian, tuntutan hukum, atau dampak lain akibat penyalahgunaan.
 
 **4. Responsible Disclosure**
-Jika Anda menemukan celah keamanan atau bug berisiko tinggi:
-1. Jangan mengeksposnya publik.
-2. Laporkan segera ke kontak developer / channel support: 
-   - Telegram: https://t.me/DanxyStore  
-3. Sertakan langkah reproduksi, dampak potensial, dan bukti (log/screenshot).
+Jika menemukan celah keamanan berisiko tinggi:
+1. Jangan publikasikan secara terbuka.
+2. Laporkan segera via [Telegram: @DanxyStore](https://t.me/DanxyStore).
+3. Sertakan langkah reproduksi, dampak potensial, dan bukti pendukung.
 
-**5. Lisensi & Kontribusi**
-Sertakan file `LICENSE` yang jelas (mis. MIT/GPL) untuk menjelaskan hak dan batasan penggunaan kode. Jika ingin berkontribusi, ikuti panduan di `CONTRIBUTING.md`.
+**5. Etika**
+Gunakan tools dan pengetahuan ini secara etis. Tujuan utama adalah **meningkatkan keamanan**, bukan mengeksploitasi.
 
-**6. Etika**
-Gunakan pengetahuan dan tools ini secara etis — tujuan utama adalah meningkatkan keamanan, bukan mengeksploitasi.
-
-> Dengan menjalankan atau menggunakan tools ini, Anda menyatakan telah membaca, memahami, dan menyetujui semua ketentuan di atas.
-
+> *Dengan menjalankan tools ini, Anda menyatakan telah membaca dan menyetujui semua ketentuan di atas.*
 
 ---
 
-## ⭐ Dukungan & Kontribusi
+## ⭐ Dukung Project Ini
 
-Project ini berkembang berkat dukungan komunitas.  
-Jika Anda merasa tools ini bermanfaat:
+- ⭐ **Star** repository ini untuk meningkatkan visibilitas.
+- 🔁 **Share** ke komunitas atau teman yang tertarik.
+- 🐛 **Laporkan bug** melalui [Issues](../../issues).
+- 🤝 **Pull Request** untuk kontribusi langsung pada kode.
 
-- Berikan **⭐ Star** pada repository ini → membantu meningkatkan visibilitas project.  
-- Bagikan repo ini ke komunitas atau teman yang tertarik.  
-- Laporkan bug atau usulkan fitur baru melalui [Issues](../../issues).  
-- Buat **Pull Request** jika ingin berkontribusi langsung pada kode.
-
-> Setiap dukungan, sekecil apapun, sangat berarti untuk menjaga project ini tetap aktif dan berkembang. ❤️  
+> Setiap dukungan, sekecil apapun, sangat berarti. ❤️
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p align="center">
+  <b>© 2024–2026 DanxyOfficial • DanxyTools v8.4</b><br>
+</p>
