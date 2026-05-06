@@ -1,5 +1,5 @@
 <h1 align="center">
-  🛠️ DanxyTools v8.4
+     DanxyTools v8.4
 </h1>
 <p align="center">
   <i>All-in-One Multi-Tools Framework untuk Termux | 200+ Fitur Aktif</i>
@@ -86,8 +86,21 @@ Mencakup modul untuk **OSINT**, **lookup & checker**, **networking**, **automati
 ## Instalasi (Termux)
 
 ```bash
-pkg update && pkg upgrade -y
-pkg install git curl wget toilet figlet sox mpv -y
+pkg update && pkg upgrade
+pkg install git
+pkg install mpv
+pip install Ruby
+pip install gem
+pip install lolcat
+pkg install figlet
+pkg install jq
+pkg install sox
+pkg install -y mpv socat
+pip install -U yt-dlp
+pkg install cloudflared
+pkg install termux-api
+termux-setup-storage 
+cd $HOME
 git clone https://github.com/DanxyOfficial/Danxy
 cd Danxy
 make install
@@ -111,11 +124,6 @@ make run
 
 ## GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DanxyOfficial&show_icons=true&theme=radical&hide_title=true&count_private=true" alt="GitHub Stats">
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanxyOfficial&layout=compact&theme=radical&hide=html" alt="Top Languages">
-</p>
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=DanxyOfficial&theme=radical" alt="Streak">
 </p>
