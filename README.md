@@ -67,8 +67,8 @@ Mencakup modul untuk **OSINT**, **lookup & checker**, **networking**, **automati
 | 6 | 🌐 **IP Lookup & Geolocation** | Lacak informasi IP publik beserta estimasi lokasi |
 | 7 | 👻 **Ghost-Trace** | Utilities investigasi dan pelacakan open-source lanjutan |
 | 8 | 👨‍🏫 **Search Ident Dosen** | Mencari informasi identitas dosen |
-| 9 | 🎓 **Search ident Mahasiswa | Mencari informasi ident Mahasiswa |
-| 10 | *️⃣ Cek Sim3 | Checker informasi nomor sim card tree |
+| 9 | 🎓 **Search ident Mahasiswa** | Mencari informasi ident Mahasiswa |
+| 10 | *️⃣ **Cek Sim3** | Checker informasi nomor sim card tree |
 
 ### 🛠️ Tools & Utilities Lainnya
 
