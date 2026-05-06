@@ -21,12 +21,17 @@ install:
 	@echo "\033[37m    ██████╔╝██║░░██║██║░╚███║██╔╝╚██╗░░░██║░░░██╗██║██████╔╝██╗\033[0m"
 	@echo "\033[37m    ╚═════╝░╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝╚═╝╚═════╝░╚═╝\033[0m"
 	@echo
-	@echo "     [ ! ] Memulai instalasi semua dependensi..."
+	@echo "     [ ! ] MEMULAI INSTALL MEMBUTUHKAN WAKTU 5 - 10 MENIT! [ ! ]"
 	@pkg update -y && pkg upgrade -y
 	@pkg install python python3 nala git -y
 	@pkg install coreutils ncurses-utils which nodejs bc ruby -y
 	@pkg install termux-api -y
 	@pkg install sox -y
+	@pkg install fzf -y
+	@pkg install sox -y
+	@pkg install coreutils -y
+	@pkg install termux-exec -y
+	@pkg ncurses-utils -y
 	@pkg install cloudflared -y
 	@pkg install openssl-tool xz-utils bzip2 boxes jq cowsay toilet -y
 	@pkg install php xxd -y
