@@ -45,7 +45,6 @@ Mencakup modul untuk **OSINT**, **lookup & checker**, **networking**, **automati
 
 | Fitur | Deskripsi |
 |-------|-----------|
-| 🧩 **Modular** | Tiap fitur berdiri sendiri, mudah dikembangkan dan diperbarui |
 | 🎨 **Interactive UI** | Banner, warna, dan progress bar untuk pengalaman CLI modern |
 | 🔊 **Audio Feedback** | Suara klik, notifikasi error, dan musik latar opsional |
 | ⚡ **Auto-deps** | Installer otomatis dependensi (mpv, sox, yt-dlp, dll.) |
@@ -118,10 +117,10 @@ make run
 
 | Platform | Link | Keterangan |
 |----------|------|------------|
-| ▶️ YouTube | [@DanxyOfficial](https://www.youtube.com/@DanxyOfficial) | Konten resmi & update terbaru |
-| 💬 WhatsApp | [Join Channel](https://whatsapp.com/channel/0029VaznZlq7z4kW00unHZ0e) | Info & support langsung |
-| 🎵 TikTok | [@Qwela.38](https://www.tiktok.com/@Qwela.38) | Short video & demo tools |
-| ✈️ Telegram | [DanxyStore](https://t.me/DanxyStore) | Store & kontak developer |
+| **YouTube** | [@DanxyOfficial](https://www.youtube.com/@DanxyOfficial) | Konten resmi & update terbaru |
+| **WhatsApp** | [Join Channel](https://whatsapp.com/channel/0029VaznZlq7z4kW00unHZ0e) | Info & support langsung |
+| **TikTok** | [@Qwela.38](https://www.tiktok.com/@Qwela.38) | Short video & demo tools |
+| **Telegram** | [DanxyStore](https://t.me/DanxyStore) | Store & kontak developer |
 
 ---
 
