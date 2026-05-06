@@ -67,4 +67,4 @@ run:
 	@echo
 	@echo "     [ ! ] RUNNING... PROSES MENUJU RUNNING 2 - 5 MENIT [ ! ]"
 	@git pull
-	@bash OtakLuCuman1MBya.sh
+	@bash run.sh
