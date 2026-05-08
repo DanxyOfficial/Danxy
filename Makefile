@@ -60,6 +60,8 @@ install:
 		curl \
 		wget \
 		clang \
+		make \
+		cmake \
 		zip \
 		unzip \
 		tar \
@@ -93,8 +95,7 @@ install:
 		requests \
 		httpie \
 		rich \
-		yt-dlp \
-		psutil
+		yt-dlp
 
 	@echo "\033[32m[✔] INSTALL RUBY GEM...\033[0m"
 	@gem install lolcat
