@@ -25,7 +25,12 @@ install:
 	@echo
 	@echo "\033[33m     [ ! ] MEMULAI INSTALL MEMBUTUHKAN WAKTU 5 - 10 MENIT! [ ! ]\033[0m"
 
+	@echo "\033[32m[✔] UPDATE PACKAGE...\033[0m"
 	@pkg update -y && pkg upgrade -y
+
+	@echo "\033[32m[✔] FIX NODEJS CONFLICT...\033[0m"
+	@pkg uninstall nodejs-lts -y || true
+	@pkg install nodejs -y
 
 	@echo "\033[32m[✔] INSTALL PACKAGE TERMUX...\033[0m"
 	@pkg install -y \
@@ -36,7 +41,6 @@ install:
 		coreutils \
 		ncurses-utils \
 		which \
-		nodejs \
 		bc \
 		ruby \
 		termux-api \
@@ -54,9 +58,10 @@ install:
 		php \
 		xxd
 
-	@echo "\033[32m[✔] INSTALL PACKAGE APT...\033[0m"
+	@echo "\033[32m[✔] UPDATE APT...\033[0m"
 	@apt-get update -y && apt-get upgrade -y
 
+	@echo "\033[32m[✔] INSTALL PACKAGE APT...\033[0m"
 	@apt-get install -y \
 		ruby \
 		python \
@@ -64,8 +69,6 @@ install:
 		figlet \
 		pv \
 		toilet \
-		nodejs \
-		uuid-utils \
 		file \
 		util-linux \
 		binutils \
@@ -83,19 +86,22 @@ install:
 		ncurses-utils \
 		clang \
 		bc \
-		nodejs-lts \
 		nala \
 		ripgrep \
 		bzip2 \
 		zip
 
-	@echo "\033[32m[✔] MEMBERSIHKAN PACKAGE BERMASALAH...\033[0m"
+	@echo "\033[32m[✔] CLEAN OLD PYTHON PACKAGE...\033[0m"
 	@rm -rf $$PREFIX/lib/python*/site-packages/requests || true
+
+	@echo "\033[32m[✔] UNINSTALL CONFLICT PYTHON MODULE...\033[0m"
 	@pip uninstall requests -y || true
 	@pip uninstall psutil -y || true
 
-	@echo "\033[32m[✔] INSTALL PYTHON MODULE...\033[0m"
+	@echo "\033[32m[✔] UPGRADE PIP...\033[0m"
 	@pip install --upgrade pip
+
+	@echo "\033[32m[✔] INSTALL PYTHON MODULE...\033[0m"
 	@pip install \
 		phonenumbers \
 		rich-cli \
