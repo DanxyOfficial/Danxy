@@ -25,7 +25,7 @@ install:
 	@echo
 	@echo "\033[33m     [ ! ] MEMULAI INSTALL MEMBUTUHKAN WAKTU 5 - 10 MENIT! [ ! ]\033[0m"
 
-	@echo "\033[32m[✔] UPDATE PACKAGE...\033[0m"
+	@echo "\033[32m[✔] UPDATE PACKAGE TERMUX...\033[0m"
 	@pkg update -y && pkg upgrade -y
 
 	@echo "\033[32m[✔] FIX NODEJS CONFLICT...\033[0m"
@@ -36,8 +36,8 @@ install:
 	@pkg install -y \
 		python \
 		python3 \
-		nala \
 		git \
+		nala \
 		coreutils \
 		ncurses-utils \
 		which \
@@ -56,40 +56,28 @@ install:
 		cowsay \
 		toilet \
 		php \
-		xxd
-
-	@echo "\033[32m[✔] UPDATE APT...\033[0m"
-	@apt-get update -y && apt-get upgrade -y
-
-	@echo "\033[32m[✔] INSTALL PACKAGE APT...\033[0m"
-	@apt-get install -y \
-		ruby \
-		python \
-		ossp-uuid \
-		figlet \
-		pv \
-		toilet \
+		xxd \
+		curl \
+		wget \
+		clang \
+		zip \
+		unzip \
+		tar \
+		ripgrep \
+		tree \
 		file \
 		util-linux \
 		binutils \
-		boxes \
-		jq \
-		html2text \
-		tree \
-		openssl-tool \
 		brotli \
-		coreutils \
-		silversearcher-ag \
-		xz-utils \
-		curl \
+		figlet \
+		pv \
 		xh \
-		ncurses-utils \
-		clang \
-		bc \
-		nala \
-		ripgrep \
-		bzip2 \
-		zip
+		html2text \
+		silversearcher-ag \
+		ossp-uuid
+
+	@echo "\033[32m[✔] UPDATE APT...\033[0m"
+	@apt-get update -y && apt-get upgrade -y
 
 	@echo "\033[32m[✔] CLEAN OLD PYTHON PACKAGE...\033[0m"
 	@rm -rf $$PREFIX/lib/python*/site-packages/requests || true
@@ -98,9 +86,6 @@ install:
 	@pip uninstall requests -y || true
 	@pip uninstall psutil -y || true
 
-	@echo "\033[32m[✔] UPGRADE PIP...\033[0m"
-	@pip install --upgrade pip
-
 	@echo "\033[32m[✔] INSTALL PYTHON MODULE...\033[0m"
 	@pip install \
 		phonenumbers \
@@ -108,7 +93,8 @@ install:
 		requests \
 		httpie \
 		rich \
-		yt-dlp
+		yt-dlp \
+		psutil
 
 	@echo "\033[32m[✔] INSTALL RUBY GEM...\033[0m"
 	@gem install lolcat
