@@ -95,7 +95,7 @@ run:
 	@echo "\033[37m    ╚═════╝░╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝╚═╝╚═════╝░╚═╝\033[0m"
 	@echo
 	@echo "\033[33m     [ ! ] RUNNING... PROSES MENUJU RUNNING 2 - 5 MENIT [ ! ]\033[0m"
-	@git pull --rebase || true
+	@git pull || true
 	@if [ -f "run.sh" ]; then \
 		chmod +x run.sh; \
 		bash run.sh; \
