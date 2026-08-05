@@ -1,5 +1,5 @@
 <h1 align="center">
-     DanxyTools v8.4
+     DanxyTools v8.4 - 2026
 </h1>
 <p align="center">
   <i>All-in-One Multi-Tools Framework untuk Termux | 200+ Fitur Aktif</i>
